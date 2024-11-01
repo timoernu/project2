@@ -15,6 +15,9 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <img src="fotos/favicon.ico" alt="Bootstrap" width="30" height="24">
+    </div>
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -46,6 +49,7 @@
         </div>
       </nav>
       <h1>Contact gegevens</h1>
+      <form action="https://tm-statweb.be/forms.php" method="post">
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Email address</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
@@ -54,7 +58,9 @@
         <label for="exampleFormControlTextarea1" class="form-label">Bericht</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
-    <p><a href="tel:+488557475">+32 488 55 74 75</a></p>
+      <button type="submit" class="btn btn-success">Verzenden</button>
+    </form>
+    <p class="text-success"><a href="tel:+0488557475"></a><i class="fas fa-phone me-3"></i> +32 488 55 74 75</p>
 
     <footer class="text-center text-lg-start bg-body-tertiary text-muted">
       <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
